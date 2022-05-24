@@ -9,19 +9,25 @@
 }
 body {
     font-family: 'Shadows Into Light', cursive;
-   
+    background-image: url(./img/store-hero_2019014.jpg);
+    color: rgb(255, 252, 252);
 }
+
 .img {
     height: 100px ;
 }
 
+
 .header {
     height: 100px;
+    max-width: 100%;
+    width: 1519px;
     background-color: rgb(3, 3, 3);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
+    position: fixed;
     
     
 
@@ -40,5 +46,132 @@ body {
     text-decoration:underline;
     color: rgba(172, 4, 228, 0.662);
 }
+.section1 {
+    background-image: url(./img/store-hero_20190114.jpg);
+    max-width: 100%;
+}
+
+.section2 {
+    background-image: url(./img/home-hero-aftershock.jpg);
+    height: 700px;
+    max-width: 100%;
+    width: 1519px;
+    text-align: center;
+}
+.section3 {
+    background-image: url(./img/metallica4.jpg);
+    max-width: 100%;
+    width: 1519px;
+    height: 600px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img-marg {
+    width: 600px;
+    margin: 110px 20px 21px 20px;
+    padding-top: ;
+    border-radius: 20px;
+}
+
+.section1 {
+    width: 1519px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.article1 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.entersandman{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(107, 4, 112);
+    color: rgb(15, 3, 2);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.entersandman:hover {
+    background-color: rgb(126, 6, 6);
+    transform: scale(1.1);
+    transition: all 4s;
+    
+}
+.nothingelsematters {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(107, 4, 112);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.nothingelsematters:hover {
+    background-color: rgb(126, 6, 6);
+    transform: scale(1.1);
+    transition: all 4s;
+    
+}
+ .botones {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 20px;
+     
+
+ }
+
+ .divideo {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+
+
+ }
+  
+ .iframe {
+     /*display: flex;
+     margin-left: 20px;*/
+     margin-top: 300px;
+     margin-right: 300px;
+     margin-left: 300px;
+     
+    
+     
+ }  
+
+ .latinoamerica {
+     color: rgb(255, 252, 252);
+     font-size: xx-large;
+    
+     
+ }
+
+ h2 {
+     font-size: xxx-large;
+ }
+
+ .pbiografia {
+     color:rgb(255, 252, 252);
+     font-size:large;
+     position: absolute;
+     margin: 20px 20px;
+     
+   
+     
+ }
+
+
+ 
+ 
+
 
 
